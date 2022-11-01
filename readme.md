@@ -28,12 +28,12 @@ x- Test the `addToCollection` function:
   x- Console.log each album as added using the returned value.
   x- After all are added, console.log the `collection` array.
 
-- Add a function named `showCollection`. This function should:
-  - Take in an array parameter. (This allows it to be reused to show any collection, like the results from the find or search.)
+x- Add a function named `showCollection`. This function should:
+  x- Take in an array parameter. (This allows it to be reused to show any collection, like the results from the find or search.)
   - Console.log the number of items in the array.
-  - Loop over the array and console.log each album's information formatted like: `TITLE by ARTIST, published in YEAR`.
+  x- Loop over the array and console.log each album's information formatted like: `TITLE by ARTIST, published in YEAR`.
 
-- Test the `showCollection` function.
+x- Test the `showCollection` function.
 
 - Add a function named `findByArtist`. This function should:
   - Take in `artist` (a string) parameter

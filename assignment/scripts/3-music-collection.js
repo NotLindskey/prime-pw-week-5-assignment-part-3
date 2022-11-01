@@ -1,6 +1,7 @@
 console.log("***** Music Collection *****");
 
 let collection = [];
+let artist = [];
 
 function addToCollection(title, artist, yearPublished) {
 	return collection.push({ title, artist, yearPublished });
@@ -29,3 +30,13 @@ function showCollection(collection) {
 }
 
 showCollection(collection);
+
+
+function findByArtist(artist){
+	
+	for(let i =0 ; i < collection.length; i++){
+		console.log(`${collection[i].artist}`);
+		}
+	}
+
+console.log(findByArtist('PVRIS'));

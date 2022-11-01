@@ -9,7 +9,7 @@ function addToCollection(title, artist, yearPublished) {
 addToCollection("Turn the Light On", "Imminence", 2019);
 addToCollection("Use Me (Deluxe)", "PVRIS", 2020);
 addToCollection("Disgusting", "Beartooth", 2014);
-addToCollection("Sempiternal", "Deluxe Edition", 2013);
+addToCollection("Sempiternal(Deluxe Edition", "Bring Me The Horizon", 2013);
 addToCollection("All We Know of Heaven, All we Need of Hell", "PRIVS", 2017);
 addToCollection("Palisades", "Palisades", 2017);
 
@@ -20,4 +20,12 @@ console.log(collection[3]);
 console.log(collection[4]);
 console.log(collection[5]);
 
-console.log(collection);
+function showCollection(collection) {
+	for (let i = 0; i < collection.length; i++) {
+		console.log(
+			`${collection[i].title} by ${collection[i].artist}, published in ${collection[i].yearPublished}`
+		);
+	}
+}
+
+showCollection(collection);
